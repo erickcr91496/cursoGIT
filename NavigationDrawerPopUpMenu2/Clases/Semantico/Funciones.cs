@@ -475,7 +475,6 @@ namespace NavigationDrawerPopUpMenu2.Clases.Semantico
                         Gen(":=", atr1.valor.ToString(), null, atr.valor.ToString());
 
                         pilaSemantica.Push(atr);
-                        // probando cambiosssssssssssssssssssssssssssssssssssssssssssssss
                         break;
                     case 33: // M --> h i -  : <incremento> -> incremento identificador -
                         atr.principio = Next();
