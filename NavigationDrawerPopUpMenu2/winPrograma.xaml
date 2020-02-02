@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="NavigationDrawerPopUpMenu2.winPrograma"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
+             mc:Ignorable="d" Height="535.6" Width="990">
+    <Grid Background="LightGray" Margin="2.3,6.2,-109.21,-205" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="727*"/>
+        </Grid.ColumnDefinitions>
+        <TabPanel HorizontalAlignment="Left" Height="668" Margin="8,10,0,0" VerticalAlignment="Top" Width="1037" Grid.ColumnSpan="2">
+            <TabControl x:Name="txtb_error" HorizontalAlignment="Left" Height="697" VerticalAlignment="Top" Width="1085" Margin="-2,9,-42.2,-38" RenderTransformOrigin="0.611,0.418" SelectionChanged="Txtb_error_SelectionChanged">
+                <TabItem Header="Principal" FontFamily="Lato Black" FontSize="22" Margin="1,0,-62.6,-1.6" HorizontalAlignment="Left" Width="184">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="0,0,-7.8,-23.6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="535*"/>
+                            <ColumnDefinition Width="69*"/>
+                            <ColumnDefinition Width="483*"/>
+                        </Grid.ColumnDefinitions>
+                        <RichTextBox x:Name="rtb_texto" Margin="149,36,350.2,402" Grid.ColumnSpan="3">
+                            <FlowDocument/>
+                        </RichTextBox>
+                        <Button x:Name="btn_cargartxt" Content="cargar" Height="Auto" Margin="10,10,433.2,642"/>
+
+                    </Grid>
+
+                </TabItem>
+
+
+            </TabControl>
+        </TabPanel>
+        <!--<DataGrid Name="tblAlfabeto" HorizontalAlignment="Left" Height="412" Margin="10,107.8,0,0" VerticalAlignment="Top" Width="862.3"/>-->
+
+
+
+
+
+    </Grid>
+</UserControl>

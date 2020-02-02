@@ -1,0 +1,12 @@
+declare
+integer #a , #b ;
+main {
+   for ( #a := 0 ) {
+    #a := #b + 5 ;
+    for ( #b := 0 ) {
+         #b := #a + 10 ;
+       } ( #b < 5 ) increment #b + ;
+   } ( #a < 20 ) increment #a + ; 
+  
+   
+} 

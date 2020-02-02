@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="NavigationDrawerPopUpMenu2.winSintactico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
+             mc:Ignorable="d" Height="535.6" Width="990">
+    <Grid Background="LightGray" Margin="2.3,6.2,-109.21,-205" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="727*"/>
+        </Grid.ColumnDefinitions>
+        <TabPanel HorizontalAlignment="Left" Height="668" Margin="8,10,0,0" VerticalAlignment="Top" Width="1037" Grid.ColumnSpan="2">
+            <TabControl x:Name="txtb_error" HorizontalAlignment="Left" Height="697" VerticalAlignment="Top" Width="1085" Margin="-2,9,-42.2,-38" RenderTransformOrigin="0.611,0.418" SelectionChanged="Txtb_error_SelectionChanged">
+                <TabItem Header="First y next " FontFamily="Lato Black" FontSize="22" Margin="1,0,-62.6,-2">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="0,0,-7.8,-23.6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="535*"/>
+                            <ColumnDefinition Width="69*"/>
+                            <ColumnDefinition Width="483*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="tbl_fn" HorizontalAlignment="Left" Height="235" Margin="188,93,0,0" VerticalAlignment="Top" Width="378" Grid.ColumnSpan="2"/>
+                        <Button x:Name="btn_fyn" Content="Cargar" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" Width="75" Click="Btn_fyn_Click"/>
+
+                    </Grid>
+
+                </TabItem>
+                <TabItem x:Name="gramatica" Header="Gramatica" FontFamily="Lato Black" FontSize="22" Margin="62.6,0,-124.2,0" Height="32" VerticalAlignment="Bottom">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="2,0,-9.8,-23.2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="33*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="166*"/>
+                            <ColumnDefinition Width="214*"/>
+                            <ColumnDefinition Width="22*"/>
+                            <ColumnDefinition Width="115*"/>
+                            <ColumnDefinition Width="77*"/>
+                            <ColumnDefinition Width="429*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="txtb_gramatica" TextWrapping="Wrap" Margin="5.2,0,202.2,452.8" TextChanged="Txtb_gramatica_TextChanged" Grid.ColumnSpan="7" Grid.Column="1" Height="152" VerticalAlignment="Bottom"/>
+                        <Button x:Name="btn_cargarGramatica" Content="Button" Height="Auto" Margin="15.2,21,106.6,634.8" RenderTransformOrigin="0.649,1.49" Click="Btn_cargarGramatica_Click" Grid.ColumnSpan="2" Grid.Column="1"/>
+                        <TextBox x:Name="txt_produccion" TextWrapping="Wrap" Margin="62.8,264,87.6,71.8" Grid.Column="2" Grid.ColumnSpan="4"/>
+
+                    </Grid>
+
+                </TabItem>
+                <TabItem x:Name="ti_Gramatica" Header="APSLR(0)" FontFamily="Lato Black" FontSize="22" Margin="128.2,0,-190,0" Height="32" VerticalAlignment="Bottom">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="0,0,-7.8,-23.6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="33*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="246*"/>
+                            <ColumnDefinition Width="77*"/>
+                            <ColumnDefinition Width="110*"/>
+                            <ColumnDefinition Width="562*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="txt_Goto" TextWrapping="Wrap" Margin="64.4,70,350.2,71.4" Grid.Column="6"/>
+                        <Button x:Name="btn_cargarAP" Content="cargar" Height="Auto" Grid.ColumnSpan="4" Margin="26,28,238.2,613.4" Click="Btn_cargarAP_Click"/>
+                        <Label Content="GOTO" Grid.Column="6" HorizontalAlignment="Left" Margin="98.4,28,0,0" VerticalAlignment="Top"/>
+                        <Label Content="accion&#xD;&#xA;" Grid.Column="3" HorizontalAlignment="Left" Margin="144.2,30,0,0" VerticalAlignment="Top"/>
+                        <TextBox x:Name="txtb_accion" TextWrapping="Wrap" Margin="111.2,73,63.2,107.4" Grid.Column="3" RenderTransformOrigin="3.353,0.568" Grid.ColumnSpan="2"/>
+
+                    </Grid>
+
+                </TabItem>
+                <TabItem Header="Movientos" FontFamily="Lato Black" FontSize="22" Margin="192,0,-208.6,-0.4" Height="34" VerticalAlignment="Top">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="0,0,979.2,558.4">
+                        <Button x:Name="btn_movimiento" Content="analizar&#xD;&#xA;" Height="44" Margin="128,21,-121,0" RenderTransformOrigin="10.053,1.929" VerticalAlignment="Top" Click="Btn_movimiento_Click"/>
+                        <TextBox x:Name="tb_error" TextWrapping="Wrap" Margin="154,398,-633,-339.6"/>
+                        <Button x:Name="btn_mostrar" Content="mostrar" Height="Auto" Margin="606,21,-603,31.8" Click="Btn_mostrar_Click"/>
+                        <RichTextBox x:Name="rich_Editor" Margin="126,102,-695,-247.2">
+                            <FlowDocument/>
+                        </RichTextBox>
+                        <Button Content="reglas" Height="Auto" Margin="720,21,-695,31.8" Click="Button_Click_1"/>
+                    </Grid>
+
+                </TabItem>
+
+
+            </TabControl>
+        </TabPanel>
+        <!--<DataGrid Name="tblAlfabeto" HorizontalAlignment="Left" Height="412" Margin="10,107.8,0,0" VerticalAlignment="Top" Width="862.3"/>-->
+
+
+
+
+
+    </Grid>
+</UserControl>

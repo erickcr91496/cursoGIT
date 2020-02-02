@@ -1,0 +1,24 @@
+noTerminales	First	Next
+P	i	$
+D	e r l c d	p
+U	e r l c d	erlcdp
+C	e r l c d	i
+L	i	@
+N	¿ eps	, @ )
+I	q x g k j y h ] i	}
+X	q x g k j y h ] i	q x g k j y h ] i }
+Y	q	q x g k j y h ] i }
+Q	meps	q x g k j y h ] i }
+W	x	q x g k j y h ] i }
+S	g	q x g k j y h ] i }
+M	h	@
+O	y	q x g k j y h ] i }
+V	k	q x g k j y h ] i }
+R	j	q x g k j y h ] i }
+G	i	)
+A	i	q x g k j y h ] i }
+Z	i ( a v f	)
+B	o & # > < z % =	i ( a v f
+E	i ( a v f	) @ o & # > < z % = + -
+T	i ( a v f	) @ o & # > < z % = + - * / ^
+F	i ( a v f	) @ o & # > < z % = + - * / ^

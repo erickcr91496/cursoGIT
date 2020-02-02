@@ -1,0 +1,40 @@
+procesos del compilador:
+analisis(front-end)
+-detecta que el programa fuente esta mal 
+-formado en cuanto a la sintaxis,o semantica inconsistente
+-Almacena valores en la TDS
+sintesis(back-end)construye programa destino deseado a partir de la TDS
+COMPILADORES OPTIMIZADORES: realizan mayor optimizacion de codigo
+HERRAMIENTAS DE CONSTRUCCION DE COMPILADORES: editores de lenguaje, depuradores, versionadores, profilers, 
+Primeros lenguajes(0 y 1) 1940
+Lenguajes de ensamblado 1950
+C 1970
+java 1995
+simula 1967 objetos
+fortran(cientifico),cobol(empresarial),lisp(programas simboicos) 1955
+
+CLASIFICACION DE LOS LENGUAJES
+por generacion:1era lenguajes de maquina, 2da ensambladores, 3er alto nivel  Fortran, Cobol, Lisp,
+ 4to app especificas,
+               5to logica y restriccion Ej  Prolog y OPS5. 
+imperativos: el programa especifica como se va a realizar el calculo
+declarativos: el programa especifica qué cálculo se va a realizar.ML y Haskell prolog 
+vonn neuman: basados en arquitectura de vonn neuman. Fortran y C
+orientado a objetos
+sec comandos: interpretados con operadores de alto nivel
+
+es mas facil programar en lenguajes alto nivel pero menos eficientes 
+dificil bajo nivel mas control de calculos y produce cod mas eficiente
+
+
+
+
+
+
+
+
+
+
+
+
+

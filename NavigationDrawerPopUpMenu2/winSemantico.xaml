@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="NavigationDrawerPopUpMenu2.winSemantico"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
+             mc:Ignorable="d" Height="535.6" Width="990">
+    <Grid Background="LightGray" Margin="2.3,6.2,-109.21,-205" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="727*"/>
+        </Grid.ColumnDefinitions>
+        <TabPanel HorizontalAlignment="Left" Height="668" Margin="8,10,0,0" VerticalAlignment="Top" Width="1037" Grid.ColumnSpan="2">
+            <TabControl x:Name="txtb_error" HorizontalAlignment="Left" Height="724" VerticalAlignment="Top" Width="1085" Margin="-2,-3,-2.2,-24.2" RenderTransformOrigin="0.611,0.418" SelectionChanged="Txtb_error_SelectionChanged">
+                <TabItem Header="Principal" FontFamily="Lato Black" FontSize="22" Margin="1,-3,-1,1.4" HorizontalAlignment="Left" Width="184">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="#FF83880C" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <Grid Margin="0,0,-7.8,-23.6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="535*"/>
+                            <ColumnDefinition Width="69*"/>
+                            <ColumnDefinition Width="483*"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+
+                </TabItem>
+
+
+            </TabControl>
+        </TabPanel>
+        <Button x:Name="btn_aceptar" Content="Analizar&#xD;&#xA;" Height="Auto" Margin="44,72,194.2,616.8" Click="Btn_aceptar_Click"/>
+        <Button x:Name="btn_mostrarCodigo" Content="mostrar codigo&#xD;&#xA;" Height="Auto" Margin="507.8,373,84.6,319.8" Grid.Column="1" Click="Btn_mostrarCodigo_Click"/>
+        <Button Content="TDS" Height="Auto" Margin="507.8,474,84.6,218.8" Grid.Column="1" Click="Button_Click_1"/>
+        <Button Content="VER TABLA" Height="Auto" Margin="371,64,592.6,628.8" Click="btn_CargarSemantico" Grid.ColumnSpan="2"/>
+        <!--<DataGrid Name="tblAlfabeto" HorizontalAlignment="Left" Height="412" Margin="10,107.8,0,0" VerticalAlignment="Top" Width="862.3"/>-->
+
+
+
+
+
+    </Grid>
+</UserControl>

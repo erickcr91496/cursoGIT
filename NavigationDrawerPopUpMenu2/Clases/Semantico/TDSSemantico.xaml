@@ -1,0 +1,14 @@
+﻿<Window x:Class="NavigationDrawerPopUpMenu2.TDSSemantico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
+        mc:Ignorable="d"
+        Title="Tabla de Simbolos" Height="582" Width="677.643" HorizontalAlignment="Right">
+    <Grid Margin="117,21,126.2,37.8">
+
+        <DataGrid x:Name="tbl_TDS" Margin="10,10,40,76" Background="#FFF34646" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
